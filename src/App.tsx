@@ -202,7 +202,7 @@ function LoadingScreen({ onComplete }: { onComplete: () => void }) {
     };
   }, [onComplete]);
 
-  const words = ["Design", "Create", "Inspire"];
+  const words = ["Discover", "Build", "Evolve"];
   return (
     <motion.div
       className="loading-screen"
