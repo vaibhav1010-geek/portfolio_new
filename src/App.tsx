@@ -125,6 +125,16 @@ const journal = [
     image: "/images/claude-app-icon.jpg",
     link : "https://app.notion.com/p/Claude-Code-Lite-India-Product-Case-Study-40a652c6076a810b8f42d58eed92cb63?source=copy_link"
   },
+  {
+    title: "Retention Lab: Uncovering the Acquisition–Retention Gap",
+    category: "Analytics",
+    description:
+      "An analysis of GA4 e-commerce data to uncover acquisition-channel retention gaps, using BigQuery SQL and Looker Studio to turn user behaviour into actionable product insights.",
+    read: "6 min read",
+    date: "November 3, 2025",
+    image: "/images/retention-lab-symbol.jpg",
+    link : "https://github.com/vaibhav1010-geek/Retention-Lab"
+  }
   
 ];
 
@@ -249,7 +259,7 @@ function Navbar() {
   const links = [
     ["Home", "#home"],
     ["Work", "#work"],
-    ["Resume", "https://drive.google.com/file/d/1s-SDbSeSjIVKsli5R0mAqSEsqk8g4gzU/view?usp=drive_link"],
+    ["Resume", "https://drive.google.com/file/d/1KBHqD4WsfMKV78-Tq-puK5YDsj5ltkR2/view?usp=sharing"],
   ];
 
   useEffect(() => {
@@ -453,16 +463,14 @@ function Experience() {
             </div>
             <h3>Software Developer Intern</h3>
             <p className="experience-card-description">
-              Contributed across the full software development lifecycle by
-              developing frontend and backend features, building REST APIs, and
-              working with databases alongside the development team to deliver
-              real-world software solutions.
+              Owned end to end development of an internal workforce management platform, building features that streamlined employee records, task allocation, leave management, and team coordination. Worked across React.js, Spring Boot, and MySQL while driving feature discovery, translating operational bottlenecks into technical requirements, and implementing solutions to improve workforce management workflows.
             </p>
             <div className="experience-card-tags" aria-label="Experience highlights">
-              <span>Frontend &amp; backend</span>
-              <span>REST APIs</span>
-              <span>Database development</span>
-              <span>Software lifecycle</span>
+              <span>Full Stack Development</span>
+              <span>REST API Development</span>
+              <span>Database Management</span>
+              <span>Product Feature Discovery</span>
+              <span>Feature Prioritization</span>
             </div>
           </div>
         </motion.article>
